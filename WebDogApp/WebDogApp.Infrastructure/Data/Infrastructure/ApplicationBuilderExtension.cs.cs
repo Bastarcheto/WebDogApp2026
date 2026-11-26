@@ -11,7 +11,7 @@ using WebDogApp.Infrastructure.Data.Domain;
 
 namespace WebDogApp.Infrastructure.Data.Infrastructure
 {
-    static class ApplicationBuilderExtension
+    public static class ApplicationBuilderExtension
     {
         public static async Task<IApplicationBuilder> PrepareDatabase(this IApplicationBuilder app)
         {
