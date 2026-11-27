@@ -11,7 +11,8 @@ namespace WebDogApp.Models.Dog
         [Range(0, 30, ErrorMessage ="Age must be between 0 and 30")]
         [Display(Name = "Age")]
         public int Age { get; set; }
-        [Display(Name="Breed")]
+        [Display(Name = "Breed")]
+        public string BreedName { get; set; } = null!;
         public int BreedId { get; set; }
         [Display(Name = "Dog Picture")]
         public string? Picture { get; set; } = null!;
